@@ -1,0 +1,22 @@
+html {
+  background: url(curtains.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#backdrop {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 15%;
+}
+
+.movie {
+  height: 80%;
+  width: 20%;
+  border: 20px solid;
+  border-color: #202131;
+  border-radius: 1%;
+}
